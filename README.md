@@ -27,8 +27,7 @@ if err != nil {
 fmt.Println(bb.Title())
 ```
 
-Just like a real web browser, Surf maintains a history that you can move back through. You can also
-bookmark pages and come back to them later.
+Surf also maintains a history that helps to move back and forward. You can also bookmark pages and come back to them later.
 
 ```go
 // Bookmark the page so we can come back to it later.
